@@ -1,3 +1,49 @@
-body{
-  background-color: rgb(30,33,39);
+/*
+ * Globals
+ * -------
+ */
+
+.mdl-layout__header {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.mdl-layout--fixed-header {
+  background: url('images/background.jpg') center / cover;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+
+/* Introduction */
+#intro {
+  background-color: transparent;
+  height: 550px;
+  margin:50px 50px 0 50px;
+}
+
+#intro #title {
+  text-align: center;
+  font-size: 60px;
+  font-weight:bold;
+  padding-top: 40px;
+  color: white;
+}
+
+#intro #subtitle {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 22px;
+  color: white;
+}
+
+#intro #image {
+  display: block;
+  margin: auto;
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+  background: url('images/myimage.jpg') center / cover;
 }
