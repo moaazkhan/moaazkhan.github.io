@@ -58,14 +58,25 @@ body {
 
 }
 
-#about-skill-grid #about #about-head {
+#about-skill-grid #about #heading {
   text-align: center;
+}
+
+#about-skill-grid #about #text {
+  text-align: justify;
 }
 
 #about-skill-grid #skill {
+
+}
+
+#about-skill-grid #about #heading {
   text-align: center;
 }
 
-#about-skill-grid #about #skill-head {
-  text-align: center;
+#about-skill-grid #about #list {
+
+}
+#about-skill-grid #about #list #skill1 {
+  text-align: left;
 }
