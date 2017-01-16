@@ -8,8 +8,93 @@
   box-shadow: none;
 }
 
-.mdl-layout--fixed-header {
-  background: url('images/background.jpg') center / cover;
+.mdl-layout__header--fixed {
+  background: url('images/skill.jpg') center / cover;
+  position:static;
+}
+
+.mdl-mini-footer {
+  background-color: transparent;
+  text-align: center;
+}
+
+/* Seperator */
+.section--separator {
+    background-color: white;
+    height: 1px;
+    margin: 0px auto 0;
+    width: calc(90% - 30px);
+}
+
+/* expand more button */
+.mdl-button {
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  width: 55px;
+}
+
+.mdl-button--fab.mdl-button--colored {
+    color: white;
+}
+/***************CARDS**************/
+/* Education Card */
+#education-card {
+  display: inline-block;
+}
+
+.demo-card-square1.mdl-card {
+  width: 345px;
+  height: 450px;
+  margin: auto;
+}
+
+.demo-card-square1 .mdl-card__title {
+  color: #fff;
+  background: url('images/edu1.jpg') center / cover;
+}
+.mdl-card--border {
+  padding: 0px;
+}
+
+#education-card #degree  {
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#education-card #school {
+  padding-top: 0px;
+  font-size: 12px
+}
+
+/* Skill Card */
+#skill-card {
+  display: inline-block;
+}
+
+.demo-card-square2.mdl-card {
+  width: 345px;
+  height: 450px;
+  margin: auto;
+}
+.demo-card-square2 .mdl-card__title {
+  color: #fff;
+  background: url('images/edu1.jpg') center / cover;
+}
+.mdl-card--border {
+  padding: 0px;
+}
+
+#skill-card #degree  {
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#skill-card #school {
+  padding-top: 0px;
+  font-size: 13px
 }
 
 body {
@@ -19,13 +104,13 @@ body {
 /* Introduction */
 #intro {
   background-color: transparent;
-  height: 550px;
-  margin:50px 50px 0 50px;
+  height: 450px;
+  margin:50px 50px 0px 50px;
 }
 
 #intro #title {
   text-align: center;
-  font-size: 60px;
+  font-size: 55px;
   font-weight:bold;
   padding-top: 40px;
   color: white;
@@ -34,49 +119,39 @@ body {
 #intro #subtitle {
   text-align: center;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 20px;
   color: white;
 }
 
 #intro #image {
   display: block;
   margin: auto;
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
-  height: 300px;
+  height: 250px;
   background: url('images/myimage.jpg') center / cover;
 }
 
 /* About and Skills */
-#about-skill-grid {
+#about-grid {
   max-width: 956px;
-  background-color: blue;
+  background-color: transparent;
   color: white;
 }
 
-#about-skill-grid #about {
-
-}
-
-#about-skill-grid #about #heading {
+#about-grid #about {
   text-align: center;
 }
 
-#about-skill-grid #about #text {
-  text-align: justify;
-}
-
-#about-skill-grid #skill {
-
-}
-
-#about-skill-grid #about #heading {
+#about-grid #about #heading {
   text-align: center;
 }
 
-#about-skill-grid #about #list {
+#about-grid #about #text {
+  font-size: 15px;
+  font-weight:lighter;
+}
 
-}
-#about-skill-grid #about #list #skill1 {
-  text-align: left;
-}
+/* Education Card */
+
+/* Footer */

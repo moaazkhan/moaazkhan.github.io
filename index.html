@@ -4,16 +4,17 @@
     <title>Moaaz Khan</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_blue.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-red.min.css" />
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet" type="text/css">
+
   </head>
   <!--............................................................................................................................................................-->
   <body>
 
 
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="mdl-layout mdl-js-layout mdl-layout__header--fixed">
       <!--Navigation Bar Start-->
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
@@ -21,8 +22,8 @@
 
           <!--Nav Links-->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="#intro">Home</a>
-            <a class="mdl-navigation__link" href="">About me</a>
+            <a class="mdl-navigation__link" href="#intro">About me</a>
+            <a class="mdl-navigation__link" href="">Education</a>
             <a class="mdl-navigation__link" href="">Skills</a>
             <a class="mdl-navigation__link" href="">Experience</a>
           </nav>
@@ -43,27 +44,84 @@
               <div class="mdl-card__actions"></div>
             </div>
           </div>
+
+          <!-- Section Separator -->
+          <div class="section--separator"></div>
+
           <!--Intro Division END-->
 
-          <!--About & Skill Grid Start-->
-          <div id="about-skill-grid" class="mdl-grid">
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">expand_more</i>
+          </button>
+
+          <!--About Grid Start-->
+          <div id="about-grid" class="mdl-grid">
             <!--About Cell-->
-            <div id="about" class="mdl-cell mdl-cell--6-col">
+            <div id="about">
               <h3 id="heading">About Me</h3>
               <p id="text">Although, I am an Electrical Engineering graduate from National University of Science and Technology, Islamabad, my interests are peculiar and fall in the domain of Programming & Development. However I am still swotting to become a better Web Developer. In addition to these skills, I am also pursuing my master's Degree in Business Administration from Lahore School of Economics. </p>
             </div>
+          </div>
+          <!--About Grid end-->
 
-            <!--Skill Cell-->
-            <div id="skill" class="mdl-cell mdl-cell--6-col">
-              <h3 id="heading">Skills</h3>
-              <ul id="list">
-                <li id="skill1">HTML 5</li>
-              </ul>
+          <div class="section--separator"></div>
+
+
+          <!--Education, Skill and Experience Grid Start-->
+          <div id="education-card">
+            <!--Education Card-->
+            <div class="demo-card-square1 mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title mdl-card--expand">
+                <h2 class="mdl-card__title-text">Education</h2>
+              </div>
+
+              <div id="degree" class="mdl-card__supporting-text">Master's of Business Adminstration (2015-2017)</div>
+              <div id="school" class="mdl-card__supporting-text">Lahore School of Economics</div>
+
+              <div class="mdl-card__actions mdl-card--border"></div>
+
+              <div id="degree" class="mdl-card__supporting-text">Bachelor's of Electrical Engineering (2010-2014)</div>
+              <div id="school" class="mdl-card__supporting-text">National University of Science and Technology </div>
+
+              <div class="mdl-card__actions mdl-card--border"></div>
+
+              <div id="degree" class="mdl-card__supporting-text">A-Levels (2008-2010) --- Gold Medal</div>
+              <div id="school" class="mdl-card__supporting-text">Beacon House School System </div>
             </div>
           </div>
-          <!--About & Skill Grid end-->
+            <!--Skill Card-->
+          <div id="skill-card">
+            <div class="demo-card-square2 mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title mdl-card--expand">
+                <h2 class="mdl-card__title-text">Skills</h2>
+              </div>
 
-        </div>
+              <div id="degree" class="mdl-card__supporting-text">Web Development</div>
+              <div id="school" class="mdl-card__supporting-text">HTML | CSS | JavaScript | Ruby on Rails</div>
+
+              <div class="mdl-card__actions mdl-card--border"></div>
+
+              <div id="degree" class="mdl-card__supporting-text">Embedded Systems</div>
+              <div id="school" class="mdl-card__supporting-text">C/C++ | Matlab | Arduino | Atmel</div>
+
+              <div class="mdl-card__actions mdl-card--border"></div>
+
+              <div id="degree" class="mdl-card__supporting-text">Others</div>
+              <div id="school" class="mdl-card__supporting-text">Python | MS Office | RF Planning & Opti</div>
+            </div>
+          </div>
+
+
+
+
+        <!--Footer Start
+        <footer class="mdl-mini-footer">
+          <ul class="mdl-mini-footer__link-list">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+          </ul>
+        </footer>
+        Footer end-->
       </main>
       <!--Main Content End-->
     </div>
