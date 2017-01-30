@@ -145,7 +145,7 @@
 
 .demo-card-square1 .mdl-card__title {
   color: #fff;
-  background: url('images/edu2.jpg') center / cover;
+  background: url('images/edu.jpg') center / cover;
 }
 .mdl-card--border {
   padding: 0px;
@@ -160,7 +160,7 @@
 }
 .demo-card-square2 .mdl-card__title {
   color: #fff;
-  background: url('images/skill.jpg') center / cover;
+  background: url('images/skill5.jpg') center / cover;
 }
 .mdl-card--border {
   padding: 0px;
@@ -176,7 +176,7 @@
 }
 .demo-card-square3 .mdl-card__title {
   color: #fff;
-  background: url('images/exp2.jpg') center / cover;
+  background: url('images/exp.jpg') center / cover;
 }
 .mdl-card--border {
   padding: 0px;
@@ -202,14 +202,14 @@
 /* Footer SVGs */
 .mdl-mini-footer .svg {
   display: block;
-  width: 26px;
-  height: 26px;
+  width: 23px;
+  height: 23px;
   /*background-size: 30px 30px;*/
   padding-right: 20px;
 
 }
 #email {
-  height: 24px;
+  height: 20px;
   margin-top: 1px;
 }
 .mdl-mini-footer__left-section {
@@ -223,7 +223,7 @@ margin-left: 70px;
 
 .svg2 {
   display: block;
-  width: 300px;
+  width: 250px;
 }
 
 
