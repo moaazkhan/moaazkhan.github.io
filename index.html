@@ -24,9 +24,9 @@
           <!--Nav Links-->
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="#intro">About me</a>
-            <a class="mdl-navigation__link" href="">Education</a>
-            <a class="mdl-navigation__link" href="">Skills</a>
-            <a class="mdl-navigation__link" href="">Experience</a>
+            <a class="mdl-navigation__link" href="#education-card">Education</a>
+            <a class="mdl-navigation__link" href="#skill-card">Skills</a>
+            <a class="mdl-navigation__link" href="#experience-card">Experience</a>
           </nav>
         </div>
       </header>
@@ -155,14 +155,15 @@
 </ul>
 </div> -->
 
-        <div id="footer-seperator" class="section--separator">
+        <div id="footer-seperator" class="section--separator"></div>
         <!--Footer Start-->
-        <footer class="mdl-mini-footer">
 
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
           <ul class="mdl-mini-footer__link-list">
             <li>
               <a href="mailto:moaazkhan33@gmail.com" class="svg">
-                <object data="svgs/email.svg" type="image/svg+xml" class="mailicon"></object>
+                <object id="email" data="svgs/email.svg" type="image/svg+xml" class="mailicon"></object>
               </a>
             </li>
 
@@ -178,11 +179,17 @@
               </a>
             </li>
           </ul>
-        </footer>
+          </div>
+
+          <div class="mdl-mini-footer__right-section">
+          <a class="svg2">
+          <object data="svgs/Sign.svg" type="image/svg+xml" class="mailicon"></object>
+          </a>
         </div>
+        </footer>
 
       </main>
       <!--Main Content End-->
-    </div>
+
   </body>
 </html>

@@ -26,7 +26,7 @@
 
 /* background image is set */
 .mdl-layout__header--fixed {
-  background: url('images/theme.jpg') center / cover;
+  background: url('images/theme2.jpg') center / cover;
   position:static;
 }
 
@@ -37,6 +37,7 @@
   padding-bottom: 2px;
   font-weight: bold;
   font-size: 17px;
+  color: rgb(143,143,143);
 }
 
 /* All Cards sub-heading font should be not bold and 16 in size*/
@@ -49,14 +50,13 @@
 .section--separator {
   background-color: white;
   height: 1px;
-  margin: 0px auto 0;
-  width: calc(90% - 30px);
+  margin: 0 70px 0 70px;
 }
 
 /* Go Down button */
 #go-down-ul {
   text-align: right;
-  margin-right: 15px;
+  margin-right: 70px;
   margin-bottom: 50px;
 }
 
@@ -97,6 +97,7 @@
 
 #intro #image {
   margin: auto;
+  padding-bottom: 0px;
   width: 250px;
   border-radius: 50%;
   height: 250px;
@@ -144,7 +145,7 @@
 
 .demo-card-square1 .mdl-card__title {
   color: #fff;
-  background: url('images/edu1.jpg') center / cover;
+  background: url('images/edu2.jpg') center / cover;
 }
 .mdl-card--border {
   padding: 0px;
@@ -159,11 +160,12 @@
 }
 .demo-card-square2 .mdl-card__title {
   color: #fff;
-  background: url('images/edu1.jpg') center / cover;
+  background: url('images/skill.jpg') center / cover;
 }
 .mdl-card--border {
   padding: 0px;
 }
+
 
 /* Experience Card */
 
@@ -174,7 +176,7 @@
 }
 .demo-card-square3 .mdl-card__title {
   color: #fff;
-  background: url('images/edu1.jpg') center / cover;
+  background: url('images/exp2.jpg') center / cover;
 }
 .mdl-card--border {
   padding: 0px;
@@ -192,32 +194,39 @@
 /* Footer should be transparent */
 .mdl-mini-footer {
   background-color: transparent;
-  /*padding-top: 20px;*/
+  /*margin: 0px 70px 0 70px;*/
+  padding: 10px 0px 10px 0px;
 
 }
 
 /* Footer SVGs */
 .mdl-mini-footer .svg {
   display: block;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  /*padding-right: 100px*/
+  width: 26px;
+  height: 26px;
+  /*background-size: 30px 30px;*/
+  padding-right: 20px;
 
 }
+#email {
+  height: 24px;
+  margin-top: 1px;
+}
+.mdl-mini-footer__left-section {
+margin: auto;
+margin-left: 70px;
+}
 
-.mdl-mini-footer__link-list {
-  margin: 0 auto;
+.mdl-mini-footer__right-section {
+  margin-right: 70px;
+}
+
+.svg2 {
+  display: block;
+  width: 300px;
 }
 
 
-/****End Quote****/
-h6 {
-  padding: 0;
-  text-align: center;
-  /**/
-  color: white;
-}
 
 
 
