@@ -26,7 +26,7 @@
 
 /* background image is set */
 .mdl-layout__header--fixed {
-  background: url('images/theme2.jpg') center / cover;
+  background: url('images/theme2.webp') center / cover;
   position:static;
 }
 
@@ -58,6 +58,7 @@
   text-align: right;
   margin-right: 70px;
   margin-bottom: 50px;
+  margin-top: 70px;
 }
 
 .mdl-button--fab.mdl-button--colored {
@@ -101,7 +102,7 @@
   width: 250px;
   border-radius: 50%;
   height: 250px;
-  background: url('images/myimage.jpg') center / cover;
+  background: url('images/myimage.webp') center / cover;
 }
 
 /* About and Skills */
@@ -141,6 +142,8 @@
   width: 345px;
   height: 450px;
   margin-right: 20px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .demo-card-square1 .mdl-card__title {
@@ -157,6 +160,9 @@
   width: 345px;
   height: 450px;
   margin-right: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+
 }
 .demo-card-square2 .mdl-card__title {
   color: #fff;
@@ -173,6 +179,8 @@
 .demo-card-square3.mdl-card {
   width: 345px;
   height: 450px;
+  margin: auto;
+
 }
 .demo-card-square3 .mdl-card__title {
   color: #fff;
@@ -194,63 +202,52 @@
 /* Footer should be transparent */
 .mdl-mini-footer {
   background-color: transparent;
-  /*margin: 0px 70px 0 70px;*/
+  margin: auto;
   padding: 10px 0px 10px 0px;
 
 }
 
-/* Footer SVGs */
-.mdl-mini-footer .svg {
-  display: block;
-  width: 23px;
-  height: 23px;
-  /*background-size: 30px 30px;*/
-  padding-right: 20px;
-
-}
-#email {
-  height: 20px;
-  margin-top: 1px;
-}
 .mdl-mini-footer__left-section {
 margin: auto;
-margin-left: 70px;
 }
 
 .mdl-mini-footer__right-section {
-  margin-right: 70px;
+  margin: auto;
 }
 
-.svg2 {
-  display: block;
-  width: 250px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/
-/*#testcont {
-  text-align: center;
-}
-#test1 {
-display: inline-block;
-
-}
-
-#test2 {
+/* Footer SVGs */
+.mdl-mini-footer .svg1 {
   display: inline-block;
+  margin: auto;
+  width: 25px;
+  height: 100%;
+  padding-right: 20px;
+  padding-top: 2px;
 }
 
-#test3 {
+.mdl-mini-footer .svg2 {
   display: inline-block;
-}*/
+  margin: auto;
+  width: 24px;
+  height: 100%;
+  background-size: 23px 23px;
+  padding-right: 20px;
+}
+
+.mdl-mini-footer .svg3 {
+  display: inline-block;
+  margin: auto;
+  width: 22px;
+  height: 100%;
+}
+
+.mdl-mini-footer .svg4 {
+  display: inline-block;
+  margin: auto;
+  width: 220px;
+  height: 100%;
+}
+
+.mdl-mini-footer__link-list {
+  margin: auto;
+}
