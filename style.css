@@ -26,7 +26,7 @@
 
 /* background image is set */
 .mdl-layout__header--fixed {
-  background: url('images/theme2.webp') center / cover;
+  background: url('images/theme1.jpg') center / cover;
   position:static;
 }
 
